@@ -28,7 +28,7 @@
           vpc_subnet_id: subnet-40cd350c
           assign_public_ip: yes
           group: ansible-tower
-          key_name: awx_key
+          key_name: my-windows-key
 
       - name: Launch Ubuntu-16.04
         ec2:
@@ -59,4 +59,4 @@
           vpc_subnet_id: subnet-40cd350c
           assign_public_ip: yes
           group: ansible-tower
-          key_name: awx_key
+          key_name: my-windows-key
