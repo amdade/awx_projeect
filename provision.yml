@@ -6,7 +6,7 @@
         ec2_group:
           name: ansible-tower
           description: ansible-tower security group
-          vpc_id: vpc-1d063575
+          vpc_id: vpc-adffccc5
           region: us-east-2
           rules:
             - proto: tcp
@@ -25,7 +25,7 @@
             Name: CentOS7
           count: 1
           wait: yes
-          vpc_subnet_id: subnet-c10697bb
+          vpc_subnet_id: subnet-40cd350c
           assign_public_ip: yes
           group: ansible-tower
           key_name: awx_key
