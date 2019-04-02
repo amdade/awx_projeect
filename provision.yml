@@ -45,7 +45,7 @@
                      #!/bin/sh
                      sudo apt-get install python -y
           group: ansible-tower
-          key_name: awx_key
+          key_name: my-windows-key
 
       - name: Launch Windows 2016
         ec2:
